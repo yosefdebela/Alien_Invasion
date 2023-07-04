@@ -3,7 +3,7 @@ class Settings():
     def __init__(self):
         """initialize game setting"""
         self.screen_width = 800
-        self.scree_height = 600
+        self.screen_height = 600
         self.bg_color = (220, 20, 210)
         self.ship_speed_factor = 1.5
         # bullet settings

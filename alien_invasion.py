@@ -14,7 +14,7 @@ def run_game():
     ai_settings = Settings()
     # this make ai_setting an instance of setting class
 
-    screen = pygame.display.set_mode((ai_settings.screen_width, ai_settings.scree_height))
+    screen = pygame.display.set_mode((ai_settings.screen_width, ai_settings.screen_height))
     pygame.display.set_caption("Alien Invasion")
     # make a ship
     ship = Ship(ai_settings, screen)
